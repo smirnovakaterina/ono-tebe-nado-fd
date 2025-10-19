@@ -5,76 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="fonts/fonts.css">
-    <link rel="stylesheet" href="styles/global.css">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
-    <header>
+    <header class="container">
       <nav>
         <ul class="menu-list">
-          <li class="menu__item"><a href="#0">главная</a></li>
-          <li class="menu__item menu__item_active"><a href="">посмотреть лоты</a></li>
-          <li class="menu__item menu__item_active"><a href="">об аукционе</a></li>
+          <li class="menu_item"><a href="#">главная</a></li>
+          <li class="menu_item_active"><a href="#">посмотреть лоты</a></li>
+          <li class="menu_item_active"><a href="#">об аукционе</a></li>
         </ul>
       </nav>
-      <a></a>
-      <address></address>
+      <a class="logo">
+        <img class="logo-image" 
+        src="./images/logo-black.svg" 
+        alt="логотип Оно тебе надо">
+      </a>
+      <address>
+        <p class="number">+9 999 555 5555</p>
+        <p class="email">info@sobaka.ge</p>
+        <p class="address">наб. Принсенграхт 263-265, Амстердам</p>
+      </address>
     </header>
     <main>
       <section class="cover">
-        <h1>ОНО ТЕБЕ НАДО</h1><!--возможно тут для трех слов нужно исп. Р сделав его
-        блочным элементом-->
+        <div class="overlay"></div>
+        <h1>
+          <p class="header_line_first">оно</p>
+          <p class="header_line_second">тебе</p>
+          <p class="header_line_third">надо</p>
+        </h1>
         <div class="description">
-          <p class="subline"></p>
-          <button></button>
+          <p class="subline">аукцион вещей, в которые никто не верил</p>
+          <button class="button">сделать ставку</button>
         </div>
       </section>
       <section class="lots">
-        <h2>ЛОТЫ</h2>
+        <h2 class="header-lots">лоты</h2>
         <ul class="card-list">
-          <li class="card"><a href=""><article></article></a></li>
-          <li class="card"><a href=""><article></article></a></li>
-          <li class="card"><a href=""><article></article></a></li>
+          <li class="card-lot-1"><a href=""><article></article></a><div class="overlay-card-lot"></div></li>
+          <li class="card-lot-2"><a href=""><article></article></a><div class="overlay-card-lot"></div></li>
+          <li class="card-lot-3"><a href=""><article></article></a><div class="overlay-card-lot"></div></li>
         </ul>
-        <a></a>
+        <a href="#"><p class="lots-more">посмотреть больше</p></a>
       </section>
       <section class="about">
-        <div class="logo_column"></div><!--возможно, див лишний 
-        и можно вставить просто логотип, опираясь на свойства секции как флекс контейнера-->
-        <div class="about_column">
-          <h2>ОБ АУКЦИОНЕ</h2>
-          <div class="description_block">
-          <p class="p_first"></p>
-          <p class="p_second"></p>
-          </div>
+        <div class="logo-section-about">
+          <img class="logo_white" src="./images/logo-white.svg" alt="логотип оно тебе надо">
+        </div>
+        <h2 class="header-about">об аукционе</h2>
+        <div class="description_block">
+        <p class="p_first">Здесь вы не встретите очередное пафосное собрание невероятно 
+            дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. 
+            Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать 
+            даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
+        <p class="p_second">Слишком сложные или, наоборот, слишком простые. 
+            Опережающие своё время. В пух и прах растерзанные критиками. 
+            Непринятые и непонятые. Когда-то они казались просто неудачными. 
+            Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов 
+            невозможно представить современную культуру. Когда в эти вещи не верил никто, 
+            продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
         </div>
       </section>
     </main>
     <footer>
       <address></address>
       <nav>
-        <ul class="menu-list">
+        <ul class="menu-list-footer">
           <li class="menu__item"><a href="#0">главная</a></li>
           <li class="menu__item menu__item_active"><a href="">посмотреть лоты</a></li>
           <li class="menu__item menu__item_active"><a href="">об аукционе</a></li>
         </ul>
       </nav>
       <div class="socials">
-        <ul>
+        <ul class="footer_menu_logo_socials">
           <li class="logo_socials">
             <a class="logo_socials_item">
-            <img class="logo__image" src="" />
+            <img class="logo_image" src="" />
             </a>
           </li>
           <li class="logo_socials">
             <a class="logo_socials_item">
-            <img class="logo__image" src="" />
+            <img class="logo_image" src="" />
             </a>
           </li>
           <li class="logo_socials">
             <a class="logo_socials_item">
-            <img class="logo__image" src="" />
+            <img class="logo_image" src="" />
             </a>
           </li>
         </ul>

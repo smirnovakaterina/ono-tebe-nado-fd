@@ -1,0 +1,190 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    height: 293px;
+}
+
+.menu-list {
+    display: flex;
+    list-style: circle;
+}
+
+.menu_item {
+
+}
+
+.menu_item_active {
+
+}
+
+.logo {
+    align-content: center;
+}
+
+.logo-image {
+    display: block;
+    width: 148px;
+    height: 105px;
+    
+
+}
+
+.number {
+
+}
+
+.email {
+
+}
+
+.address {
+
+
+}
+.cover {
+    position:relative;
+    width: 1100px;
+    height: 757px;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    color: #fff;
+}
+    
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+}
+
+.header_line_first {
+    text-transform: uppercase;
+}
+
+.header_line_second {
+    text-transform: uppercase;
+}
+
+.header_line_third {
+    text-transform: uppercase;
+}
+
+.subline {
+    text-transform: uppercase;
+}
+
+.button {
+    display: inline-block;
+    text-transform: uppercase;
+  
+    color: #fff;
+    border: 1px solid #fff;
+    width: 256px;
+    height: 51px;
+}
+
+.lots {
+    margin: 180px 24px 120px 24px;
+}
+
+.header-lots {
+    text-transform: uppercase;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    column-gap: 25px;
+    list-style: none;
+    flex-direction: row;
+}
+
+.overlay-card-lot {
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    width: 334px;
+    height: 596px;
+ }
+
+.card-lot-1 {
+    background-image: url(../images/card-lot-01.jpg);
+    width: 334px;
+    height: 596px;
+    background-size: cover;
+    background-position: center;
+   }
+
+.card-lot-2 {
+    background-image: url(../images/card-lot-02.jpg);
+    width: 334px;
+    height: 596px;
+    background-size: cover;
+    background-position: center;
+    column-gap: 25px;
+}
+
+.card-lot-3 {
+    background-image: url(../images/card-lot-03.jpg);
+    width: 334px;
+    height: 596px;
+    background-size: cover;
+    background-position: center;
+}
+
+.description {
+    width: 192px;
+    height: 23px;
+}
+
+.lots-more {
+   
+
+}
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 1052px;
+    height: 595px;
+}
+
+.logo-section-about {
+    background-color: black;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+}
+
+.logo_white {
+    width: 148px;
+    height: 114px;
+}
+
+.header-about {
+    text-transform: uppercase;
+}
+
+.description_block {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.p_first {
+    width: 688px;
+    height: 120px;
+}
+
+.p_second {
+    width: 693px;
+    height: 168px;
+   
+}
+
+.menu-list-footer {
+    list-style: none;
+}
+
+.footer_menu_logo_socials {
+    list-style: none;
+}
