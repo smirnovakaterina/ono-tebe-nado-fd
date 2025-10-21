@@ -1,87 +1,129 @@
 
-.container {
+.header {
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr min-content 1fr;
     height: 293px;
+    font-size: 18px; 
 }
 
-.menu-list {
+.header__menu {
+    padding-top: 121px;
+    padding-bottom: 138px;
+    padding-left: 50px;
+    padding-right: 36.52px;
+}
+
+
+.header__links-list {
     display: flex;
+    column-gap: 33px;
+    max-width: 391.48px;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.header__links-list-item {
+    text-decoration: underline;
+    text-underline-offset: 4px;
     list-style: circle;
 }
 
-.menu_item {
-
-}
-
-.menu_item_active {
-
-}
-
-.logo {
-    align-content: center;
-}
-
-.logo-image {
+.header__logo {
     display: block;
+    padding-top: 93.79px;
+    padding-bottom: 103.37px;
+}
+
+.header__logo-image {
     width: 148px;
     height: 105px;
-    
-
-}
-
-.number {
-
-}
-
-.email {
-
 }
 
 .address {
-
-
+    display: flex;
+    line-height: 24.3px;
+    font-style: normal;
+    flex-direction: column;
+    padding: 82px 50px 100px 186px;
 }
+
+.address-box {
+    max-width: 240px;
+    height: 94px;
+    
+}  
+
+.number, .mail {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
 .cover {
     position:relative;
     width: 1100px;
     height: 757px;
     background-image: url(../images/cover.jpg);
     background-size: cover;
-    color: #fff;
-}
+    background-position: center;
+    z-index: -2;
+    padding: 165px 50px 207px 50px;
+    }
     
 .overlay {
+    min-height: 757px;
     position: absolute;
+    z-index: -1;
     inset: 0;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.6);
 }
 
-.header_line_first {
+.cover-title {
     text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-style: bold;
+    font-weight: 700;
+    font-size: 100px;
+    letter-spacing: 30px;
+    line-height: 114.9%;
 }
 
-.header_line_second {
-    text-transform: uppercase;
+.aligned-text {
+   display: block;
 }
 
-.header_line_third {
-    text-transform: uppercase;
+.aligned-text_left {
+    width: 286px;
+    height: 115px;
+    margin-right: auto;
 }
 
-.subline {
-    text-transform: uppercase;
+.aligned-text_center {
+    width: 339px;
+    height: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    margin-bottom: 23px;
 }
 
-.button {
-    display: inline-block;
-    text-transform: uppercase;
-  
-    color: #fff;
-    border: 1px solid #fff;
-    width: 256px;
-    height: 51px;
+.aligned-text_right {
+    width: 387px;
+    height: 115px;
+    margin-left: auto;
+    margin-top: -3px;
 }
+
+.cover__description-text {
+ word-spacing: 5px;
+ font-size: 22px;
+ color: rgb(255, 255, 255);
+ line-height: 28px;
+ text-transform: uppercase;
+ 
+ }
 
 .lots {
     margin: 180px 24px 120px 24px;
@@ -105,7 +147,7 @@
     background: rgba(0,0,0,0.6);
     width: 334px;
     height: 596px;
- }
+}
 
 .card-lot-1 {
     background-image: url(../images/card-lot-01.jpg);
@@ -113,7 +155,7 @@
     height: 596px;
     background-size: cover;
     background-position: center;
-   }
+}
 
 .card-lot-2 {
     background-image: url(../images/card-lot-02.jpg);
