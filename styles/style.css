@@ -46,15 +46,17 @@
     line-height: 24.3px;
     font-style: normal;
     flex-direction: column;
-    padding: 82px 50px 100px 186px;
+    font-size: 18px;
 }
 
-.address-box {
+.header-address-box {
     max-width: 240px;
     height: 94px;
+    margin: 77px 50px 95px 186px;
 }  
 
-.number, .mail {
+.number, 
+.mail {
     text-decoration: underline;
     text-underline-offset: 4px;
 }
@@ -70,7 +72,6 @@
     padding: 165px 50px 207px 50px;
 }
 
-    
 .overlay {
     min-height: 100%;
     position: absolute;
@@ -82,11 +83,8 @@
 .cover-title {
     text-transform: uppercase;
     color: rgb(255, 255, 255);
-    font-style: bold;
-    font-weight: 700;
     font-size: 100px;
     letter-spacing: 30px;
-    line-height: 114.9%;
 }
 
 .aligned-text {
@@ -103,26 +101,23 @@
     height: 115px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 22px;
-    margin-bottom: 23px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .aligned-text_right {
     width: 387px;
     height: 115px;
     margin-left: auto;
-    margin-top: -3px;
 }
 
 .cover__description {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 106px 50px;
+    align-items: baseline;
+    margin-top: 107px;
     margin-left: auto;
     margin-right: auto;
-    width: 1000px;
-    height: 51px;
 }
 
 .cover__description-text {
@@ -142,7 +137,6 @@
     text-transform: uppercase;
     width: 256px;
     height: 51px;
-    padding: 12px 32px 11px 31px;
 }
 
 .lots {
@@ -153,7 +147,6 @@
 
 .lots__heading {
     text-transform: uppercase;
-    font-weight: 700; 
     font-size: 40px;
     margin: 0 891px 27px 40px;
 }
@@ -174,7 +167,6 @@
     background-size: cover;
     background-position: center;
     color: rgb(255, 255, 255);
-   
 }
 
 .card_type_film {
@@ -192,7 +184,6 @@
 .card-link {
     height: 100%;
     text-decoration: none;
-    
 }
 
 .card {
@@ -202,8 +193,6 @@
     min-height: 100%;
     z-index: 1;
     padding: 48px 40px 48px 40px;
-   
-   
 }
 
  .card__title {
@@ -211,9 +200,9 @@
     font-size: 22px;
     line-height: 120%;
     text-transform: uppercase;
-    text-decoration: underline;
+    text-decoration: underline solid 1px;
     flex-grow: 1;
-    text-underline-offset: 3px;
+    text-underline-offset: 4px;
 }
 
  .card__text {
@@ -227,52 +216,88 @@
     margin-top: 32px;
     margin-left: 40px;
     text-underline-offset: 5px;
-    
 }
+
 .about {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 359px 1fr;
     grid-template-rows: 1fr 1fr;
     width: 1052px;
     height: 595px;
+    margin: auto;
 }
 
-.logo-section-about {
+.about__logo {
+    display: flex;
     background-color: black;
     border-radius: 50%;
     width: 240px;
     height: 240px;
+    margin-left: 47px;
+    margin-top: 35px;
 }
 
-.logo_white {
+.about__logo-image {
     width: 148px;
     height: 114px;
+    margin: auto;
 }
 
-.header-about {
+.about__title {
     text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 135px;
 }
 
-.description_block {
-    grid-column: 2;
-    grid-row: 2;
-}
-
-.p_first {
-    width: 688px;
-    height: 120px;
-}
-
-.p_second {
+.about__text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 24px;
     width: 693px;
-    height: 168px;
-   
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 359px;
 }
 
-.menu-list-footer {
-    list-style: none;
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 180px;
+    width: 1100px;
+    margin-top: 178px;
+    padding-top: 1px;
 }
 
-.footer_menu_logo_socials {
+.footer-address-box {
+    margin-left: 50px;
+}
+
+.footer__menu-list {
     list-style: none;
+    font-size: 18px;
+    text-align: center;
+    width: 164px;
+    margin-left: auto;
+}
+
+.footer__menu-link_active {
+    text-decoration: none;
+}
+
+.footer__menu-link {
+    text-underline-offset: 4px;
+}
+
+.footer__social-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 240px;
+    margin: 1px 50px 131px 177px;
+}
+
+.footer__social-icon {
+    width: 48px;
+    height: 48px;
 }
