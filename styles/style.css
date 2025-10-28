@@ -4,7 +4,7 @@
     align-items: center;
     grid-template-columns: 1fr min-content 1fr;
     height: 293px;
-    font-size: 18px; 
+    font-size: 18px;
 }
 
 .header__menu {
@@ -174,7 +174,7 @@
 } 
 
 .card_type_book {
-    background-image: url(../images/card-lot-02.jpg); 
+    background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
@@ -207,7 +207,7 @@
 
  .card__text {
     z-index: 2;
-    line-height: 120%;  
+    line-height: 120%;
     font-size: 20px;
 }
 
