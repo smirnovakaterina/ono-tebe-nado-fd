@@ -23,9 +23,16 @@
 }
 
 .header__links-list-item {
+    list-style: circle;
+}
+
+.header__link {
     text-decoration: underline;
     text-underline-offset: 4px;
-    list-style: circle;
+}
+
+.header__link_active {
+     text-decoration: none;
 }
 
 .header__logo {
@@ -48,12 +55,10 @@
 }
 
 .header-address-box {
-    max-width: 240px;
     margin: 77px 50px 80px 186px;
 }  
 
-.number, 
-.mail {
+.address-link {
     text-decoration: underline;
     text-underline-offset: 4px;
 }
@@ -277,12 +282,13 @@
     margin-left: auto;
 }
 
-.footer__menu-link_active {
-    text-decoration: none;
+.footer__menu-link {
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
-.footer__menu-link {
-    text-underline-offset: 4px;
+.footer__menu-link_active {
+    text-decoration: none;
 }
 
 .footer__social-list {
